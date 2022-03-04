@@ -12,7 +12,7 @@ pipeline {
 				stage('test') {
 								steps {
 								     sh '''
-									echo"this is test"
+									echo "this is test"
 									 sleep 15
 									'''
 									}

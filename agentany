@@ -5,7 +5,7 @@ pipeline {
 								steps {
 								     sh '''
 									echo "this is build"
-									sh sleep 5
+									 sleep 5
 									'''
 									}
 							}
@@ -13,7 +13,7 @@ pipeline {
 								steps {
 								     sh '''
 									echo"this is test"
-									sh sleep 15
+									 sleep 15
 									'''
 									}
 							}

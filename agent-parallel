@@ -1,6 +1,7 @@
 pipeline {
 			agent { label 'master' }
 			stages {
+			                 stage('build and test')
 					parallel{
 			        stage('build') {
 									steps { sh '''
